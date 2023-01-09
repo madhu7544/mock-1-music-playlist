@@ -1,0 +1,42 @@
+.list {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  padding-right: 10px;
+}
+.img-container {
+  display: flex;
+}
+.image {
+  width: 150px;
+  margin-right: 16px;
+}
+.name {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 600;
+}
+.genre {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #3b82f6;
+  font-weight: 600;
+}
+.time-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+.duration {
+  margin-right: 10px;
+}
+
+.delete-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
